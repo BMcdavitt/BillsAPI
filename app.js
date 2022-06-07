@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
+const cors = require('cors');
+
 
 const pages = require('./routes/pages')
 
+app.use(cors())
  // static assets
  app.use(express.static('./methods-public'))
  // parse form data\
