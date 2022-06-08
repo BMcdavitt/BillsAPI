@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const pages = require('./routes/pages')
 
-app.use(cors())
+app.use(cors({ origin: 'http://localhost:3000/' }))
  // static assets
  app.use(express.static('./methods-public'))
  // parse form data\
@@ -15,6 +15,6 @@ app.use(cors())
 
  app.use('/',pages)
 
-app.listen(5000,()=>{
-    console.log('Server is still listening on port 5k')
+app.listen(8080,()=>{
+    console.log('Server is now listening on port 8080')
 })
