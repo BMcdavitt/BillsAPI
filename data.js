@@ -51,6 +51,12 @@ const pageData = [
     cardType: 'FrontEndMentorCard',
     cardData: [
       {
+        name: 'IntroComponentWithSignupForm',
+        image: 'IntroComponentWithSignupForm.png',
+        title: 'Intro Component with Signup Form',
+        link: 'https://bmcdavitt.github.io/femIntroComponentWithSignupForm/',
+      },
+      {
         name: 'SinglePriceGridComponent',
         image: 'SinglePriceGridComponent.png',
         title: 'Single Price Grid Component',
