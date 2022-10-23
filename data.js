@@ -162,7 +162,6 @@ const pageData = [
       { src: 'QWrEOyL' },
       { src: 'bGMpoQy' },
       { src: 'VwxedqB' },
-      { src: 'VwxedqB' },
     ],
   },
 ]
